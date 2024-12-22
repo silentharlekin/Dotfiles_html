@@ -1,3 +1,25 @@
+/*
+ * Color scheme, made from pywal
+ * #17120d
+ * #B56D1D
+ * #9B4.68
+ * #AF702B
+ * #96714D
+ * #CF962D
+ * #CBA551
+ * #adbab8
+ * #798280
+ * #B56D1D
+ * #9B4.68
+ * #AF702B
+ * #96714D
+ * #CF962D
+ * #CBA551
+ * #adbab8
+ * 
+ *
+ */
+
 body {
 	background-color: #000000;
 	font-family: 'GohuFont 14 Nerd Font Mono';
@@ -9,6 +31,80 @@ h2 {
 	text-align: center;
 }
 
+/* Squares for colorscheme */
+
+.square17120d {
+	height: 50px;
+	width: 50px;
+	background-color: #17120d;
+	float: left;
+	width: 4.68%;
+	text-align: center;
+}
+.squareb56d1d {
+	height: 50px;
+	width: 50px;
+	background-color: #B56D1D;
+	float: left;
+	width: 4.68%;
+	text-align: center;
+}
+.square9b6025 {
+	height: 50px;
+	width: 50px;
+	background-color: #9B6025;
+	float: left;
+	width: 4.68%;
+	text-align: center;
+}
+.squareaf702b {
+	height: 50px;
+	width: 50px;
+	background-color: #AF702B;
+	float: left;
+	width: 4.68%;
+	text-align: center;
+}
+.square96714d {
+	height: 50px;
+	width: 50px;
+	background-color: #96714d;
+	float: left;
+	width: 4.68%;
+	text-align: center;
+}
+.squarecf962d {
+	height: 50px;
+	width: 50px;
+	background-color: #CF962D;
+	float: left;
+	width: 4.68%;
+	text-align: center;
+}
+.squarecba551 {
+	height: 50px;
+	width: 50px;
+	background-color: #CBA551;
+	float: left;
+	width: 4.68%;
+	text-align: center;
+}
+.squareadbab8 {
+	height: 50px;
+	width: 50px;
+	background-color: #adbab8;
+	float: left;
+	width: 4.68%;
+	text-align: center;
+}
+.square798280 {
+	height: 50px;
+	width: 50px;
+	background-color: #798280;
+	float: left;
+	width: 4.68%;
+	text-align: center;
+}
 
 /* remove default underlining from links */
 a:link {
@@ -39,7 +135,10 @@ a:visited {
 /* Decision pictures */
 .decision {
 	text-align:center;
+	margin:2em 0 5em 0;
 }
+
+
 /* div-Containers for messy and clean thumbs */
 .messy {
 	text-align:center;
@@ -73,6 +172,13 @@ a:visited {
 	width:30%;
 }
 
+/* div for colorscheme squares */
+.colorscheme:after {
+	content: "";
+	display: table;
+	clear: both;
+	align-items: center;
+}
 
 /* Introduction*/
 .introduction {
