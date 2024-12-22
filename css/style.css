@@ -1,0 +1,81 @@
+body {
+	background-color: #000000;
+	font-family: 'GohuFont 14 Nerd Font Mono';
+	color: #FFFFFF;
+	margin: 0;
+}
+
+h2 {
+	text-align: center;
+}
+
+
+/* remove default underlining from links */
+a:link {
+	text-decoration:none;
+}
+
+a:active {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+a:visited {
+	text-decoration:none
+}
+
+
+/* Bar on the top of screen. Color? */
+.topbar {
+	margin: 0;
+	padding: 1em;
+	background-color: #12170D;
+}
+
+
+/* Decision pictures */
+.decision {
+	text-align:center;
+}
+/* div-Containers for messy and clean thumbs */
+.messy {
+	text-align:center;
+	margin:2em 0 5em 0;
+}
+
+.clean {
+	text-align:center;
+	margin:5em 0 5em 0;
+}
+
+
+/* Size of messy thumbs -lr left and right -c centered */
+.messylr {
+	width:25%;
+}
+
+.messyc {
+	width:30%;
+}
+
+
+/* Size of clean thumbs -lr left and right -c centered */
+.cleanlr {
+	width:25%;
+}
+
+
+/* Size of clean center monitor thumb */
+.cleanc {
+	width:30%;
+}
+
+
+/* Introduction*/
+.introduction {
+	text-align:justify;
+	padding:0 10em 0 10em;
+}
