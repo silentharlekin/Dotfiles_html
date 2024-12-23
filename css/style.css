@@ -198,6 +198,5 @@ a:visited {
 }
 
 .neovim {
-	text-align: justify;
-	padding: 1em 10em 1em 10em;
-}
+	width: 45%;
+:where}
