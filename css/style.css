@@ -119,9 +119,8 @@ a:visited {
 /* Bar on the top of screen. Color? */
 .topbar {
 	margin: 0;
-	padding: 1em;
-	background-color: #12170D;
-	height: 1em;
+	padding: 10px 1em 10px 1em;
+	background-color: #17120d;
 }
 
 
@@ -167,7 +166,7 @@ a:visited {
 
 /* div for colorscheme squares */
 .colorscheme {
-	width: 90%;
+	padding: 0 10em 0 10em;
 	text-align: justify;
 	margin-left: auto;
 	margin-right: auto;
@@ -176,7 +175,7 @@ a:visited {
 /* Introduction*/
 .introduction {
 	text-align:justify;
-	padding:0 10em 0 10em;
+	padding: 0 10em 0 10em;
 }
 
 .code {
