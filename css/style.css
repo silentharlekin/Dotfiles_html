@@ -16,8 +16,6 @@
  * #CF962D
  * #CBA551
  * #adbab8
- * 
- * Commentary for function of Github Desktop on macOS.
  */
 
 body {
@@ -132,6 +130,7 @@ a:visited {
 	margin: 0;
 	padding: 1em;
 	background-color: #12170D;
+	height: 1em;
 }
 
 
