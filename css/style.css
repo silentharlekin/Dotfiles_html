@@ -22,7 +22,11 @@ body {
 	background-color: #000000;
 	font-family: 'GohuFont 14 Nerd Font Mono';
 	color: #adbab8;
-	margin: 0;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 h2 {
@@ -33,73 +37,60 @@ h2 {
 
 .square17120d {
 	height: 50px;
-	width: 50px;
 	background-color: #17120d;
-	float: left;
 	width: 4.68%;
 	text-align: center;
 }
 .squareb56d1d {
 	height: 50px;
-	width: 50px;
 	background-color: #B56D1D;
-	float: left;
 	width: 4.68%;
 	text-align: center;
 }
 .square9b6025 {
 	height: 50px;
-	width: 50px;
 	background-color: #9B6025;
-	float: left;
 	width: 4.68%;
 	text-align: center;
 }
 .squareaf702b {
 	height: 50px;
-	width: 50px;
 	background-color: #AF702B;
-	float: left;
 	width: 4.68%;
 	text-align: center;
+	color: #17120d;
 }
 .square96714d {
 	height: 50px;
-	width: 50px;
 	background-color: #96714d;
-	float: left;
 	width: 4.68%;
 	text-align: center;
+	color: #17120d;
 }
 .squarecf962d {
 	height: 50px;
-	width: 50px;
 	background-color: #CF962D;
-	float: left;
 	width: 4.68%;
 	text-align: center;
+	color: #17120d;
 }
 .squarecba551 {
 	height: 50px;
-	width: 50px;
 	background-color: #CBA551;
-	float: left;
 	width: 4.68%;
 	text-align: center;
+	color: #17120d;
 }
 .squareadbab8 {
 	height: 50px;
-	width: 50px;
 	background-color: #adbab8;
-	float: left;
 	width: 4.68%;
 	text-align: center;
+	color: #17120d;
 }
 .square798280 {
 	height: 50px;
-	width: 50px;
 	background-color: #798280;
-	float: left;
 	width: 4.68%;
 	text-align: center;
 }
@@ -175,11 +166,11 @@ a:visited {
 }
 
 /* div for colorscheme squares */
-.colorscheme:after {
-	content: "";
-	display: table;
-	clear: both;
-	align-items: center;
+.colorscheme {
+	width: 90%;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Introduction*/
@@ -198,4 +189,4 @@ a:visited {
 
 .neovim {
 	width: 45%;
-:where}
+}
