@@ -178,14 +178,28 @@ a:visited {
 	padding: 0 10em 0 10em;
 }
 
-.code {
-	text-align: left;	
-	padding: 1em 10em 1em 10em;
-}
 .iterm2 {
 	width: 35%;
 }
 
 .neovim {
 	width: 45%;
+}
+.code {
+	margin: auto;
+	width: 90%;
+	text-align: justify;
+}
+.codeheader {
+	border: dashed #17120d 2px;
+	padding: 5px 1em 5px 1em;
+}
+.codecontent {
+	border: dashed #17120d 2px;
+	padding: 1em;
+}
+
+.enumeration {
+	width: 20%;
+	background: #17120d;
 }
