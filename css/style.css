@@ -1,21 +1,5 @@
 /*
  * Color scheme, made from pywal
- * #17120d
- * #B56D1D
- * #9B4.68
- * #AF702B
- * #96714D
- * #CF962D
- * #CBA551
- * #adbab8
- * #798280
- * #B56D1D
- * #9B4.68
- * #AF702B
- * #96714D
- * #CF962D
- * #CBA551
- * #adbab8
  */
 
 body {
@@ -35,74 +19,78 @@ h2 {
 
 /* Squares for colorscheme */
 
-.square17120d {
+.square1 {
 	height: 50px;
-	background-color: #17120d;
+	background-color: #0B0F0E;
 	width: 4.68%;
 	text-align: center;
 }
-.squareb56d1d {
+.square2 {
 	height: 50px;
-	background-color: #B56D1D;
+	background-color: #4A6772;
 	width: 4.68%;
 	text-align: center;
+    color: #0B0F0E;
 }
-.square9b6025 {
+.square3 {
 	height: 50px;
-	background-color: #9B6025;
+	background-color: #65827B;
 	width: 4.68%;
 	text-align: center;
+    color: #0B0F0E;
 }
-.squareaf702b {
+.square4 {
 	height: 50px;
-	background-color: #AF702B;
+	background-color: #2B7186;
 	width: 4.68%;
 	text-align: center;
-	color: #17120d;
+    color: #0B0F0E;
 }
-.square96714d {
+.square5 {
 	height: 50px;
-	background-color: #96714d;
+	background-color: #517884;
 	width: 4.68%;
 	text-align: center;
-	color: #17120d;
+    color: #0B0F0E;
 }
-.squarecf962d {
+.square6 {
 	height: 50px;
-	background-color: #CF962D;
+	background-color: #378A8F;
 	width: 4.68%;
 	text-align: center;
-	color: #17120d;
+    color: #0B0F0E;
 }
-.squarecba551 {
+.square7 {
 	height: 50px;
-	background-color: #CBA551;
+	background-color: #6C9294;
 	width: 4.68%;
 	text-align: center;
-	color: #17120d;
+    color: #0B0F0E;
 }
-.squareadbab8 {
+.square8 {
 	height: 50px;
-	background-color: #adbab8;
+	background-color: #C0CEC8;
 	width: 4.68%;
 	text-align: center;
-	color: #17120d;
+    color: #0B0F0E;
 }
-.square798280 {
+.square9{
 	height: 50px;
-	background-color: #798280;
+	background-color: #86908C;
 	width: 4.68%;
 	text-align: center;
+    color: #0B0F0E;
 }
+
 
 /* remove default underlining from links */
 a:link {
-	color: #CF962D;
+	color: #378A8F;
 	text-decoration:none;
 }
 
 a:active {
-	color: #AF702B;
+	color: #4A6772;
 	text-decoration:none;
 }
 
@@ -111,7 +99,7 @@ a:hover {
 }
 
 a:visited {
-	color: #96714d;
+	color: #2B7186;
 	text-decoration:none
 }
 
@@ -120,7 +108,7 @@ a:visited {
 .topbar {
 	margin: 0;
 	padding: 10px 1em 10px 1em;
-	background-color: #17120d;
+	background-color: #0B0F0E;
 }
 
 
@@ -156,12 +144,14 @@ a:visited {
 /* Size of clean thumbs -lr left and right -c centered */
 .cleanlr {
 	width:25%;
+    padding: 0;
 }
 
 
 /* Size of clean center monitor thumb */
 .cleanc {
 	width:30%;
+    padding: 0;
 }
 
 /* div for colorscheme squares */
@@ -202,4 +192,8 @@ a:visited {
 .enumeration {
 	width: 20%;
 	background: #17120d;
+}
+
+.spacer {
+    height: 1em;
 }
