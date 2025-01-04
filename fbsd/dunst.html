@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link href="../css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="topbar">
+			&bull; <a href="index.html">Arch Linux</a> 
+			&bull; <a href="../macos/index.html">macOS</a> &bull;
+			<span style="float: right;">&bull; <a href="http://github.com/silentharlekin/Dotfiles_html">Dotfiles Repository on github.com</a> &bull;</span>
+		</div>
+		<h2>Dunst Notifier</h2>
+		<div class="dunstscrot">
+            <a href="scrot/dunst.png"><img src="scrot/dunst.png" alt="Dunst Notifier"></a> 	
+		</div>
+
+        <div class="introduction">
+            <p>Dunst runs on a fairly default config. I adjusted the position of it, so it matches the edges of my other windows in the upper right corner. Furthermore I altered the colors to match my colorscheme.
+        </div>
+
+        <div class="code">
+            <div class="codeheader">
+                <p>~/.config/dunst/dunstrc</p>
+            </div>
+            <div class="codecontent">
+                <table>
+                    
+                    <tr> <td class="enumeration">1: </td><td>&num; See dunst(5) for all configuration options</td></tr>
+                    <tr> <td class="enumeration">2: </td><td> </td></tr>
+                    <tr> <td class="enumeration">3: </td><td>[global] </td> </tr>
+                    <tr> <td class="enumeration">4: </td><td>&num;&num;&num; Display &num;&num;&num; </td> </tr>
+                    <tr> <td class="enumeration">5: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">6: </td><td> &num; Which monitor should the notifications be displayed on.</td> </tr>
+                    <tr> <td class="enumeration">7: </td><td> monitor = 1</td> </tr>
+                    <tr> <td class="enumeration">8: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">9: </td><td> &num; Display notification on focused monitor. Possible: mouse, keyboard, none</td> </tr>
+                    <tr> <td class="enumeration">10: </td><td> follow = none</td> </tr>
+                    <tr> <td class="enumeration">11: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">12: </td><td> &num; constant width of 300</td> </tr>
+                    <tr> <td class="enumeration">13: </td><td> width = 300</td> </tr>
+                    <tr> <td class="enumeration">14: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">15: </td><td> &num; maximum height of a single notification, excluding the frame</td> </tr>
+                    <tr> <td class="enumeration">16: </td><td> height = (0, 300)</td> </tr>
+                    <tr> <td class="enumeration">17: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">18: </td><td> &num; Position the notification in the top right corner</td> </tr>
+                    <tr> <td class="enumeration">19: </td><td> origin = top-right</td> </tr>
+                    <tr> <td class="enumeration">20: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">21: </td><td> &num; Offset from origin (to match my borders from other windows)</td> </tr>
+                    <tr> <td class="enumeration">22: </td><td> offset = 50x50</td> </tr>
+                    <tr> <td class="enumeration">23: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">24: </td><td> &num; Scale factor. Auto-detecion if 0.</td> </tr>
+                    <tr> <td class="enumeration">25: </td><td> scale = 0</td> </tr>
+                    <tr> <td class="enumeration">26: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">27: </td><td> &num; Mximum number of notification (0 = no limit)</td> </tr>
+                    <tr> <td class="enumeration">28: </td><td> notification_limit = 0</td> </tr>
+                    <tr> <td class="enumeration">29: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">30: </td><td> &num;&num;&num; Progress bar</td> </tr>
+                    <tr> <td class="enumeration">31: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">32: </td><td> &num; Turn on progress bar</td> </tr>
+                    <tr> <td class="enumeration">33: </td><td> progress_bar = true</td> </tr>
+                    <tr> <td class="enumeration">34: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">35: </td><td> &num; set progress bar height including frame</td> </tr>
+                    <tr> <td class="enumeration">36: </td><td> progress_bar_height = 10</td> </tr>
+                    <tr> <td class="enumeration">37: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">38: </td><td> &num; set frame width of progress bar</td> </tr>
+                    <tr> <td class="enumeration">39: </td><td> progress_bar_frame_width = 1</td> </tr>
+                    <tr> <td class="enumeration">40: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">41: </td><td> &num; set minimum width of progress bar</td> </tr>
+                    <tr> <td class="enumeration">42: </td><td> progress_bar_min_width = 150</td> </tr>
+                    <tr> <td class="enumeration">43: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">44: </td><td> &num; set maximum width of progress bar</td> </tr>
+                    <tr> <td class="enumeration">45: </td><td> progress_bar_max_width = 300</td> </tr>
+                    <tr> <td class="enumeration">46: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">47: </td><td> &num; corner radius of progress bar</td> </tr>
+                    <tr> <td class="enumeration">48: </td><td> progress_bar_corner_radius = 0</td> </tr>
+                    <tr> <td class="enumeration">49: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">50: </td><td> &num; define which corners to round when drawing progress bar</td> </tr>
+                    <tr> <td class="enumeration">51: </td><td> &num; will be ignored, when progress_bar_corner_radius = 0</td> </tr>
+                    <tr> <td class="enumeration">52: </td><td> progress_bar_corners = all</td> </tr>
+                    <tr> <td class="enumeration">53: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">54: </td><td> &num; corner radius for the icon image</td> </tr>
+                    <tr> <td class="enumeration">55: </td><td> icon_corner_radius = 0</td> </tr>
+                    <tr> <td class="enumeration">56: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">57: </td><td> &num; define which corners to round when drawing icon image</td> </tr>
+                    <tr> <td class="enumeration">58: </td><td> &num; will be ignored, when icon_corner_radius = 0</td> </tr>
+                    <tr> <td class="enumeration">59: </td><td> icon_corners = all</td> </tr>
+                    <tr> <td class="enumeration">60: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">61: </td><td> &num; show how many messages are hurrently hidden (because of notification_limit</td> </tr>
+                    <tr> <td class="enumeration">62: </td><td> indicate_hidden = yes</td> </tr>
+                    <tr> <td class="enumeration">63: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">64: </td><td> &num; transparency of window, X11 only (we're using wayland/hyprland)</td> </tr>
+                    <tr> <td class="enumeration">65: </td><td> transparency = 0</td> </tr>
+                    <tr> <td class="enumeration">66: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">67: </td><td> &num; draw a line of given height between two notifications</td> </tr>
+                    <tr> <td class="enumeration">68: </td><td> &num; gets ignored if gap_size > 0</td> </tr>
+                    <tr> <td class="enumeration">69: </td><td> separator_height = 2</td> </tr>
+                    <tr> <td class="enumeration">70: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">71: </td><td> &num; padding between text and separator</td> </tr>
+                    <tr> <td class="enumeration">72: </td><td> padding = 8</td> </tr>
+                    <tr> <td class="enumeration">73: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">74: </td><td> &num; Horizontal padding</td> </tr>
+                    <tr> <td class="enumeration">75: </td><td> horizontal_padding = 0</td> </tr>
+                    <tr> <td class="enumeration">76: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">77: </td><td> &num; padding between text and icon</td> </tr>
+                    <tr> <td class="enumeration">78: </td><td> text_icon_padding = 5</td> </tr>
+                    <tr> <td class="enumeration">79: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">80: </td><td> &num; set frame thickness</td> </tr>
+                    <tr> <td class="enumeration">81: </td><td> frame_width = 3</td> </tr>
+                    <tr> <td class="enumeration">82: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">83: </td><td> &num; set frame color</td> </tr>
+                    <tr> <td class="enumeration">84: </td><td> frame_color = "&num;2b7186"</td> </tr>
+                    <tr> <td class="enumeration">85: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">86: </td><td> &num; gap size between notifications</td> </tr>
+                    <tr> <td class="enumeration">87: </td><td> gap_size = 0</td> </tr>
+                    <tr> <td class="enumeration">88: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">89: </td><td> &num; set separator color</td> </tr>
+                    <tr> <td class="enumeration">90: </td><td> separator_color = frame</td> </tr>
+                    <tr> <td class="enumeration">91: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">92: </td><td> &num; sort type</td> </tr>
+                    <tr> <td class="enumeration">93: </td><td> sort = yes</td> </tr>
+                    <tr> <td class="enumeration">94: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">95: </td><td> &num;&num;&num; Text</td> </tr>
+                    <tr> <td class="enumeration">96: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">97: </td><td> &num; set font</td> </tr>
+                    <tr> <td class="enumeration">98: </td><td> font = GohuFont 14 Nerd Font Mono 11</td> </tr>
+                    <tr> <td class="enumeration">99: </td><td> </td> </tr>
+                    <tr> <td class="enumeration">100: </td> <td> &num; spacing between lines</td> </tr>
+                    <tr> <td class="enumeration">101: </td> <td> line_height = 0</td> </tr>
+                    <tr> <td class="enumeration">102: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">103: </td> <td> &num; allowing html style markups in notifications</td> </tr>
+                    <tr> <td class="enumeration">104: </td> <td> markup = full</td> </tr>
+                    <tr> <td class="enumeration">105: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">106: </td> <td> &num; format notifications</td> </tr>
+                    <tr> <td class="enumeration">107: </td> <td> format = "&lt;b&gt;%s&lt;/b&gt;\n%b"</td> </tr>
+                    <tr> <td class="enumeration">108: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">109: </td> <td> &num; alignment of message text. possible: left, center, right</td> </tr>
+                    <tr> <td class="enumeration">110: </td> <td> alignment = left</td> </tr>
+                    <tr> <td class="enumeration">111: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">112: </td> <td> &num; vertical alignment of message text and icon</td> </tr>
+                    <tr> <td class="enumeration">113: </td> <td> vertical_alignment = center</td> </tr>
+                    <tr> <td class="enumeration">114: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">115: </td> <td> &num; show age of message if message is older than show_age_threshold seconds.</td> </tr>
+                    <tr> <td class="enumeration">116: </td> <td> show_age_treshold = 60</td> </tr>
+                    <tr> <td class="enumeration">117: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">118: </td> <td> &num; specify where to make an ellipsis in long lines.</td> </tr>
+                    <tr> <td class="enumeration">119: </td> <td> &num; possible: start, middle, end</td> </tr>
+                    <tr> <td class="enumeration">120: </td> <td> ellipsize = middle</td> </tr>
+                    <tr> <td class="enumeration">121: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">122: </td> <td> &num; ignore newlines '\n' in notifications</td> </tr>
+                    <tr> <td class="enumeration">123: </td> <td> ignore_newline = no</td> </tr>
+                    <tr> <td class="enumeration">124: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">125: </td> <td> &num; stack together notifications with the same content</td> </tr>
+                    <tr> <td class="enumeration">126: </td> <td> stack_duplicates = true</td> </tr>
+                    <tr> <td class="enumeration">127: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">128: </td> <td> &num; hide the count of stacked notifications with the same content</td> </tr>
+                    <tr> <td class="enumeration">129: </td> <td> hide_uplicate_count = false</td> </tr>
+                    <tr> <td class="enumeration">130: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">131: </td> <td> &num; display indicators for URLs (u) and actions (A)</td> </tr>
+                    <tr> <td class="enumeration">132: </td> <td> show_indicators = yes</td> </tr>
+                    <tr> <td class="enumeration">133: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">134: </td> <td> &num;&num;&num; Icons</td> </tr>
+                    <tr> <td class="enumeration">135: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">136: </td> <td> &num; recursive icon lookup. set a single theme instead of having to define look paths</td> </tr>
+                    <tr> <td class="enumeration">137: </td> <td> enable_recursive_icon_lookup = true</td> </tr>
+                    <tr> <td class="enumeration">138: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">139: </td> <td> &num; set icon theme (only used for recursive icon lookup</td> </tr>
+                    <tr> <td class="enumeration">140: </td> <td> icon_theme = Adwaita</td> </tr>
+                    <tr> <td class="enumeration">141: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">142: </td> <td> &num; align icons, possible: left, right, top, off</td> </tr>
+                    <tr> <td class="enumeration">143: </td> <td> icon_position = left</td> </tr>
+                    <tr> <td class="enumeration">144: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">145: </td> <td> &num; scale small icons up to this size</td> </tr>
+                    <tr> <td class="enumeration">146: </td> <td> min_icon_size = 32</td> </tr>
+                    <tr> <td class="enumeration">147: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">148: </td> <td> &num; scale larger icons down to this size</td> </tr>
+                    <tr> <td class="enumeration">149: </td> <td> max_icon_size = 128</td> </tr>
+                    <tr> <td class="enumeration">150: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">151: </td> <td> &num; path to default icons (not necessary cause we're using recursive lookup)</td> </tr>
+                    <tr> <td class="enumeration">152: </td> <td> icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/</td> </tr>
+                    <tr> <td class="enumeration">153: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">154: </td> <td> &num;&num;&num; History</td> </tr>
+                    <tr> <td class="enumeration">155: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">156: </td> <td> &num; should a notification popped up from history be sticky or timeout</td> </tr>
+                    <tr> <td class="enumeration">157: </td> <td> &num; as it would normally do.</td> </tr>
+                    <tr> <td class="enumeration">158: </td> <td> sticky_history = yes</td> </tr>
+                    <tr> <td class="enumeration">159: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">160: </td> <td> &num; maximum amount of notifications kept in history</td> </tr>
+                    <tr> <td class="enumeration">161: </td> <td> history_length = 20</td> </tr>
+                    <tr> <td class="enumeration">162: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">163: </td> <td> &num;&num;&num; Misc/Advanced</td> </tr>
+                    <tr> <td class="enumeration">164: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">165: </td> <td> &num; dmenu path</td> </tr>
+                    <tr> <td class="enumeration">166: </td> <td> /usr/bin/dmenu -p dunst</td> </tr>
+                    <tr> <td class="enumeration">167: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">168: </td> <td> &num; browser for opening urls in context menu</td> </tr>
+                    <tr> <td class="enumeration">169: </td> <td> browser = /usr/bin/xdg-open</td> </tr>
+                    <tr> <td class="enumeration">170: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">171: </td> <td> &num; always run rule-defined scrupts, eve nif the notification is suppressed</td> </tr>
+                    <tr> <td class="enumeration">172: </td> <td> always_run_script = true</td> </tr>
+                    <tr> <td class="enumeration">173: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">174: </td> <td> &num; define the title of the windows spawned by dunst (X11 only)</td> </tr>
+                    <tr> <td class="enumeration">175: </td> <td> title = Dunst</td> </tr>
+                    <tr> <td class="enumeration">176: </td> <td> </td> </tr>
+                    <tr> <td class="enumeration">177: </td> <td> &num; define the class of the windows spawned by dunst (X11 only)</td> </tr>
+                    <tr> <td class="enumeration">178: </td> <td> class = Dunst</td> </tr>
+                    <tr> <td class="enumeration">179: </td> <td> </td> </tr>
+
+
+
+                </table>
+            </div>
+        </div>
+	</body>
+</html>
